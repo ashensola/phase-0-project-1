@@ -1,10 +1,13 @@
 .wrapper{
   background-color: black;
   padding: 0.5px;
+  margin-bottom: 100px;
 }
 
 h1{ 
    color: white;
+   text-align: center;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -33,4 +36,107 @@ section[class="subhead"]{
   float: left;
   background: white;
   width: 33.333%
+}
+
+#para{
+  display: block;
+  padding: 10px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-align: center;
+ font-size: large;
+ color:whitesmoke
+}
+
+p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:whitesmoke;
+  font-size: medium;
+  font-size: medium;
+}
+
+table{
+  border-collapse: collapse;
+  width: 40%;
+  background-color: whitesmoke;
+  /* display:inline-block */
+
+}
+
+th,td{
+  text-align: left;
+  padding: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+tr:nth-child(even) {
+  background-color: rgb(156, 192, 153);
+}
+
+th{background:#04AA6D;}
+
+ul{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:whitesmoke;
+  font-size: medium;
+  font-size: medium;
+}
+
+#reg{
+  display: block;
+  padding: 10px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: large;
+ color:whitesmoke
+}
+
+input[type=text]{
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
+
+input[type=password]{
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
+
+.lbels{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: large;
+ color:whitesmoke
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4caf50;
+  color:white;
+  padding:10px;
+  margin:auto;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#dog{
+  float: right;
+  position: relative;
+  right:350px;
+  bottom:150px;
+  border-radius: 8px;
+  max-width: 30%;
+  height:auto;
+  
 }
