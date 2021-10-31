@@ -175,6 +175,16 @@ input[type=submit]:hover {
   max-width: 30%;
   height: 300px;
   display: block;
+  padding:20px;
+}
+
+@media only screen and (max-width: 1280px){
+  #dog{
+    position: relative;
+    float:right;
+    margin:0;
+    width:25%
+  }
 }
 
 #container1{
@@ -191,9 +201,17 @@ position: relative;
   background: green;
   min-height: 41px;
   min-width: 300px;
+  display: block;
   overflow: auto;
 }
-
+@media only screen and (max-width: 1280px){
+  #info{
+    position: relative;
+    float:right;
+    margin:0;
+    width:25%
+  }
+}
 #me{
   text-align: justify;
   font-size: medium;
