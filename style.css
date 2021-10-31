@@ -197,6 +197,7 @@ position: relative;
   box-sizing: border-box;
   position: relative;
   width: 100%;
+  bottom: 0;
 }
 
 #p2{
