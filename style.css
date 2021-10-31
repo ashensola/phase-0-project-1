@@ -32,6 +32,10 @@ section[class="subhead"]{
   background: white;
   width: 33.333%;
   cursor: pointer;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition:background-color 1s ease-out;
 }
 #home:hover {
   background-color: #45a049;
@@ -41,6 +45,10 @@ section[class="subhead"]{
   background: white;
   width: 33.333%;
   cursor: pointer;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition:background-color 1s ease-out;
 
 }
 
@@ -52,6 +60,10 @@ section[class="subhead"]{
   background: white;
   width: 33.333%;
   cursor: pointer;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition:background-color 1s ease-out;
 
 
 }
